@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  
+  width: 550px;;
+  height: 55px;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  border-radius: 1px;
+}
+
+nav {
+  background-color: #F55A5A;
+ 
+}
+
+.img--logo {
+  width: 40px;
+}

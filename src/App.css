@@ -20,6 +20,8 @@ nav {
   gap: 10px;
 }
 
+
+
 .image--icon{
   width: 30px;
 }
@@ -27,7 +29,6 @@ nav {
 .img--logo {
   width: 40px;
 }
-
 .location {
   color: #F55A5A;
   font-size: 25px;
@@ -52,18 +53,24 @@ nav {
   width: 200px;
   height: 250px;
   border-radius: 5px;
+  float: left;
 }
 
 .title {
   font-size: 30px;
 }
 
-.image--address, .startDate, .dash--date, .endDate {
-  display: inline-flex;
-}
+
 
 .startDate, .dash--date, .endDate {
-  align-items: flex-start;
   padding-bottom: 10px;
   font-weight: bold;
 }
+  .image--address, .startDate, .dash--date, .endDate {
+  display: inline-flex;
+}
+
+.main{
+  clear: both;
+}
+   
